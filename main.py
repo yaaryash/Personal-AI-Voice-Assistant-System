@@ -2,6 +2,7 @@ import speech_recognition as sr
 import pyttsx3
 import pyaudio
 import datetime
+import webbrowser
 
 
 def speak(audio):
@@ -47,6 +48,9 @@ while True:
         speak("Hello Yash, How are you?")
     elif 'how are you' in query:
         speak("I am fine, thank you. How can I assist you today?")
+    elif "open youtube" in query:
+        speak("Opening YouTube")
+        webbrowser.open("https://www.youtube.com")
     elif 'exit' in query or 'quit' in query:
         speak("Goodbye Yash, have a great day!")
         break
