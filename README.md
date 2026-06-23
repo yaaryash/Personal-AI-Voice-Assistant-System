@@ -6,7 +6,7 @@ A Python-based AI voice assistant that combines speech recognition, conversation
 
 ## Architecture
 
-<img width="640" height="640" alt="architecture" src="https://github.com/user-attachments/assets/a8753637-8351-45de-bf10-386b39812deb" />
+<img width="1536" height="1024" alt="Multilingual AI Architecture" src="https://github.com/user-attachments/assets/9ab53dff-0da7-4662-9cf5-0c265b19630a" />
 
 The system consists of:
 
